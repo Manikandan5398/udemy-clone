@@ -1,0 +1,162 @@
+
+
+body{
+
+
+    font-family: "Gabarito", sans-serif;
+}
+.navbar{
+    display:flex;
+   padding:10px;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap:10px;
+    align-items: center;
+    
+}
+.navbar-s1
+{
+    color: #BA2AF0;
+    padding:10px;
+    gap:10px
+}
+.navbar-s2{
+    width: 50%;
+    border:solid black 1px;
+    padding:10px;
+    display:flex; 
+    gap:10px;
+    border-radius: 30px;
+    align-items: center;
+
+
+}
+.fa-solid fa-magnifying-glass
+{
+   justify-content: center;
+}
+
+.navbar-s2 input
+  {
+  width :100%;
+    padding:10px;
+    border:none;
+    font-size: 16px;;
+}
+.navbar-s2 input:focus{
+   outline: none;
+
+}
+
+
+
+.navbar-s3
+{
+    padding:10px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.categories{
+    
+
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    border-bottom: solid black 1px;
+   
+  
+}
+ 
+.categories p{
+    border: solid black 1 px;
+    background-color: #BA2AF0;
+    padding:5px;
+    border-radius: 30px;
+
+}
+.sale-image img{
+    width: 100%;
+}
+.recommended
+{
+    
+}
+.recommended__container
+{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.recommended__card
+{
+    width:300px;
+}
+.recommended__card img{
+    height: 50%;
+    width:100%;
+}
+.topics{
+    padding:10px;
+}
+.topics__container
+{
+    display: flex;
+flex-wrap: wrap;
+    gap:10px;
+
+}
+.topics__container p
+{
+padding: 10px;
+border: solid grey 1px;
+flex-grow: 1;
+flex-basis: 25%;
+}
+.popular
+{
+    padding: 10px;;
+}
+.popular__container
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.footer{
+  background-color: black;
+  color: white;
+}
+.footer__section1
+{
+    padding: 10px;
+}
+.footer__section2
+{
+    padding:10px;
+}
+.footer__section1
+{
+   display: flex;
+   gap: 20px;
+   padding:10px;
+
+
+}
+.footer__section2
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__section1 p{
+ margin: 20px;
+}

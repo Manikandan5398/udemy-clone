@@ -1,0 +1,33 @@
+.sub__title{
+background-color: palevioletred;
+text-align: center;
+padding: 10px;
+
+
+}
+.plans
+{
+    display: flex;
+    justify-content: space-around;
+    padding:40px;
+    margin-left: 20px;
+}
+.plan__a, .plan__b, .plan__c
+{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 230px;
+}
+.plan__a-desc, .plan__b-desc, .plan__c-desc
+{
+    border: solid white 1px;
+    border-radius: 10px;;
+}
+
+.plan__a h1,h3,.plan__b h1,h3, .plan__c h1,h3
+{
+    text-align: center;
+   
+}
